@@ -1,0 +1,4 @@
+baseURL = '/'
+title ="PRODUCT DESIGN BLOG"
+languageCode = 'ko-kr'
+theme = 'jihoonlee'

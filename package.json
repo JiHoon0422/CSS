@@ -1,0 +1,25 @@
+{
+  "author": "",
+  "comments": {
+    "dependencies": {
+      "bootstrap": "project"
+    },
+    "devDependencies": {}
+  },
+  "description": "",
+  "devDependencies": {
+    "bootstrap": "^5.1.3",
+    "hugo-bin": "^0.79.2",
+    "hugo-installer": "^3.1.0"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "name": "csser",
+  "scripts": {
+    "serve": "npm run hugo:serve",
+    "hugo:serve": "hugo server",
+    "build": "npm run images:resize && npm run minify && npm run hugo:build",
+    "hugo:build": "hugo -d build"
+  },
+  "version": "1.0.0"
+}
